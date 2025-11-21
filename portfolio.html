@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sabrina Cocchiara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="glass-panel">
+        <a href="index.html" class="logo">S.C.</a>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="portfolio.html" class="active" data-i18n="nav_portfolio">Portfolio</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Me</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="lang-switch">
+            <button id="lang-en" class="lang-btn active" onclick="changeLanguage('en')">EN</button>
+            <span style="color:#444">|</span>
+            <button id="lang-it" class="lang-btn" onclick="changeLanguage('it')">IT</button>
+            <span style="color:#444">|</span>
+            <button id="lang-de" class="lang-btn" onclick="changeLanguage('de')">DE</button>
+        </div>
+    </nav>
+
+    <div style="padding-top: 120px; text-align: center;">
+        <h1 data-i18n="port_title">Selected Works</h1>
+    </div>
+
+    <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_urban">Urban Shooting</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0684 copia 2.jpg" alt="Urban 1"></div>
+            <div class="masonry-item"><img src="IMG_0674.jpg" alt="Urban 2"></div>
+            <div class="masonry-item"><img src="IMG_0681.jpg" alt="Urban 3"></div>
+        </div>
+    </section>
+
+    <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_studio">Studio Sessions</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0686.jpg" alt="Studio 1"></div>
+            <div class="masonry-item"><img src="IMG_0691.jpg" alt="Studio 2"></div>
+            <div class="masonry-item"><img src="IMG_0687.jpg" alt="Studio 3"></div>
+        </div>
+    </section>
+
+    <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_runway">Fashion Week</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0695.jpg" alt="Runway 1"></div>
+            <div class="masonry-item"><img src="IMG_0696.jpg" alt="Runway 2"></div>
+            <div class="masonry-item"><img src="IMG_0697.jpg" alt="Runway 2"></div>
+        </div>
+    </section>
+
+        <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_runway">Fashion Week</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0678.jpg" alt="Runway 1"></div>
+            <div class="masonry-item"><img src="IMG_0679.jpg" alt="Runway 2"></div>
+            <div class="masonry-item"><img src="IMG_0680.jpg" alt="Runway 2"></div>         
+        </div>
+    </section>
+
+
+        <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_runway">Fashion Week</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0682.jpg" alt="Runway 1"></div>
+            <div class="masonry-item"><img src="IMG_0683.jpg" alt="Runway 2"></div>        
+        </div>
+    </section>
+
+
+
+      <section class="gallery-section fade-in-section">
+        <h3 class="text-accent" style="margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px;" data-i18n="cat_runway">Fashion Week</h3>
+        <div class="masonry-grid">
+            <div class="masonry-item"><img src="IMG_0694.png" alt="Runway 1"></div>   
+            <div class="masonry-item"><img src="IMG_0675.jpg" alt="Runway 1"></div>
+            <div class="masonry-item"><img src="IMG_0693.jpg" alt="Runway 2"></div>      
+        </div>
+    </section>
+
+
+    <footer>
+        <p data-i18n="footer_rights" style="font-size: 0.8rem; opacity: 0.6;">© 2024 Sabrina Cocchiara.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

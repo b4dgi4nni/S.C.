@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina Cocchiara | International Model</title>
+    <meta name="description" content="Portfolio ufficiale di Sabrina Cocchiara, modella internazionale tra Italia e Wolfsburg.">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="glass-panel">
+        <a href="index.html" class="logo">S.C.</a>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
+            <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Me</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+
+        <div class="lang-switch">
+            <button id="lang-en" class="lang-btn active" onclick="changeLanguage('en')">EN</button>
+            <span style="color:#444">|</span>
+            <button id="lang-it" class="lang-btn" onclick="changeLanguage('it')">IT</button>
+            <span style="color:#444">|</span>
+            <button id="lang-de" class="lang-btn" onclick="changeLanguage('de')">DE</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img src="IMG_0668.png" alt="Sabrina Cocchiara Model" class="hero-bg">
+        
+        <div class="hero-content glass-panel" style="padding: 40px; border-radius: 0; background: rgba(0,0,0,0.3);">
+            <h1>Sabrina Cocchiara</h1>
+            <p data-i18n="hero_subtitle">International Model • Italy / Germany</p>
+            <a href="portfolio.html" class="btn-main" data-i18n="cta_portfolio">View Portfolio</a>
+        </div>
+    </header>
+
+    <section class="gallery-section fade-in-section">
+        <h2 class="section-title" data-i18n="sect_latest">Latest Works</h2>
+        
+        <div class="masonry-grid">
+            <div class="masonry-item">
+                <img src="IMG_0675 copia.jpg" alt="Fashion Shoot 1">
+            </div>
+            
+            <div class="masonry-item">
+                <img src="IMG_0694 copia 2.png" alt="Fashion Shoot 2">
+            </div>
+
+            <div class="masonry-item">
+                <img src="IMG_0670 copia.jpg" alt="Fashion Shoot 3">
+            </div>
+            
+           
+
+             <div class="masonry-item">
+                <img src="IMG_0684 copia.jpg" alt="Fashion Shoot 5">
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="portfolio.html" class="btn-main" data-i18n="cta_portfolio">View Full Portfolio</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_.saabri__/?igsh=MWRtNXl4cGFqNnB1YQ%3D%3D#" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            
+            <a href="#" class="social-icon"> <i class="fab fa-tiktok"></i>
+            </a>
+            
+            <a href="#" class="social-icon"> <i class="fab fa-x-twitter"></i>
+            </a>
+        </div>
+        <p data-i18n="footer_rights" style="font-size: 0.8rem; opacity: 0.6;">© 2024 Sabrina Cocchiara. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sabrina Cocchiara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="glass-panel">
+        <a href="index.html" class="logo">S.C.</a>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="nav_home">Home</a></li>
+            <li><a href="portfolio.html" data-i18n="nav_portfolio">Portfolio</a></li>
+            <li><a href="about.html" data-i18n="nav_about">About Me</a></li>
+            <li><a href="contact.html" class="active" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+        <div class="lang-switch">
+            <button id="lang-en" class="lang-btn active" onclick="changeLanguage('en')">EN</button>
+            <span style="color:#444">|</span>
+            <button id="lang-it" class="lang-btn" onclick="changeLanguage('it')">IT</button>
+            <span style="color:#444">|</span>
+            <button id="lang-de" class="lang-btn" onclick="changeLanguage('de')">DE</button>
+        </div>
+    </nav>
+
+    <div class="contact-wrapper glass-panel fade-in-section">
+        <h1 class="text-center" data-i18n="contact_title" style="text-align:center; margin-bottom: 10px;">Let's Create Art</h1>
+        <p class="text-center" data-i18n="contact_sub" style="text-align:center; margin-bottom: 50px; color: #ccc;">Available for bookings in Italy, Germany & Worldwide.</p>
+
+        <form action="mailto:tuamail@esempio.com" method="POST" enctype="text/plain">
+            <div class="form-group">
+                <label data-i18n="form_name" style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #888;">Name</label>
+                <input type="text" class="form-control">
+            </div>
+            
+            <div class="form-group">
+                <label data-i18n="form_email" style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #888;">Email</label>
+                <input type="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label data-i18n="form_msg" style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; color: #888;">Message</label>
+                <textarea rows="4" class="form-control"></textarea>
+            </div>
+
+            <div style="text-align: center;">
+                <button type="submit" class="btn-main" data-i18n="btn_send" style="background:transparent; cursor: pointer;">Send Request</button>
+            </div>
+        </form>
+
+        <hr style="border: 0; border-top: 1px solid var(--glass-border); margin: 50px 0;">
+
+        <div style="text-align: center;">
+            <h3 style="margin-bottom: 20px;">Direct Contact</h3>
+            
+            <div class="social-links" style="justify-content: center; gap: 40px; margin-bottom: 30px;">
+                <a href="https://www.instagram.com/_.saabri__/?igsh=MWRtNXl4cGFqNnB1YQ%3D%3D#" target="_blank" class="social-icon" style="font-size: 2.5rem;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="social-icon" style="font-size: 2.5rem;">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" class="social-icon" style="font-size: 2.5rem;">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+
+            <a href="mailto:sabrina@example.com" class="btn-email-highlight" data-i18n="btn_email_me">
+                <i class="fas fa-envelope" style="margin-right: 10px;"></i> Email Me Directly
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
